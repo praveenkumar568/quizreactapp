@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+
+.ant-carousel .slick-slide {
+  margin:4em 0 0 0;
+  text-align: center;
+  height: 600px;
+  /* line-height: 160px; */
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header{
+  background-color: mediumseagreen;
+  display: flex;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header .title{
+  color: white;
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+}
+
+.quiz.container{
+  display: block;
+  margin-top: 50px;
+  padding: 2%;
+  text-align: center;
+}
+
+.quiz.question{
+  font-size: 1.5em;
+}
+
+.quiz.answer-list{
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  list-style: none;
+  margin: auto;
+  padding: 0px;
+  width: 50%;
+}
+
+.quiz.answer-list li{
+  cursor: pointer;
+  height: 40px;
+  text-align: left;
+  padding: 2%;
+  border-bottom: 1px solid #dedede;
+  line-height: 2;
+}
+
+.quiz.answer-list li:last-child{
+  border-bottom: none;
+}
+
+.quiz.score, .quiz.progress{
+  display: block;
+  font-size: 1.5em;
+  margin: auto;
+  padding: 1%;
+  width: 50%;
+}
+
+.quiz.reset-btn{
+  background: #d3d3d31c;
+  border: 2px solid #d3d3d33b;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  height: 45px;
+  width: 10%;
+}
